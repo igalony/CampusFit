@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <title>Contact CampusFit</title>
+ <meta name="description" content="Contact CampusFit for questions about college fitness, meal prep, and budget wellness.">
+ <meta name="keywords" content="contact, CampusFit, college fitness, student health, workouts, meal prep">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <h1>CampusFit</h1>
+ <nav>
+  <a href="index.html">Home</a>
+ <a href="mealprep.html">Meal Prep Tips</a>
+ <a href="workout.html">Workout Routines</a> 
+  <a href="budget.html">Budget Wellness</a>
+ <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<main>
+    <h2>Contact CampusFit</h2>
+    <p>
+  Have questions about workouts, meal prep, or staying healthy on a college budget?
+ Send a message using the form below and we’ll get back to you as soon as we can.
+    </p>
+    <p>
+  Prefer email? Reach out directly at
+  <a href="mailto:yourname@asu.edu">yourname@asu.edu</a>.
+    </p>
+    <p>
+ For additional science-backed tips on student health, check out
+ <a href="https://www.cdc.gov/physicalactivity/basics/index.htm" target="_blank">this physical activity guide</a>.
+    </p>
+ <h3>Contact Form</h3>
+ <form action="#" method="post">
+       <div>
+      <label for="full-name">Full Name:</label><br>
+  <input type="text" id="full-name" name="fullName" required>
+        </div>
+        <div>
+   <label for="email">Email Address:</label><br>
+   <input type="email" id="email" name="email" required>
+     </div>
+      <div>
+      <label for="goal">Main Fitness Goal:</label><br>
+     <select id="goal" name="fitnessGoal" required>
+     <option value="">-- Please choose an option --</option>
+     <option value="build-muscle">Build muscle</option>
+   <option value="lose-fat">Lose fat</option>
+    <option value="get-healthy">Get generally healthier</option>
+    <option value="learn-basics">Learn the basics</option>
+     </select>
+        </div>
+        <div>
+      <p>How did you hear about CampusFit?</p>
+     <label><input type="radio" name="referralSource" value="friend" required> Friend / classmate</label><br>
+    <label><input type="radio" name="referralSource" value="social"> Social media</label><br>
+    <label><input type="radio" name="referralSource" value="search"> Google / web search</label><br>
+   <label><input type="radio" name="referralSource" value="other"> Other</label>
+        </div>
+        <div>  
+ <label for="message">Your Message:</label><br>
+ <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+ </div>
+ <div style="margin-top: 15px;">
+     <button type="submit">Send Message</button>
+ </div>
+    </form>
+</main>
+<footer>
+    <p>© 2025 CampusFit</p>
+</footer>
+</body>
+</html>
